@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DemoInfo;
 using System.IO;
+using JMS_Demo_Parser.src;
 
 namespace JMS_Demo_Parser
 {
@@ -52,6 +53,10 @@ namespace JMS_Demo_Parser
                     Console.WriteLine("CTs\t" + parser.CTClanName);
 
                     Console.WriteLine();
+
+                    DatabaseConnection connection = new DatabaseConnection();
+                    connection.addTeam(parser.TClanName);
+                    connection.addTeam(parser.CTClanName);
                 }
             };
         }
@@ -62,31 +67,9 @@ namespace JMS_Demo_Parser
             parser.ParseHeader();
 
             Program program = new Program(parser);
-            program.parseMore();
+            parser.ParseToEnd();
 
             Console.Read();
-        }
-
-        public void parseMore()
-        {
-            try
-            {
-                parser.ParseToEnd();
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("\n\n\nSTART OF TRACE - \n\n\n");
-                Console.WriteLine(e.Message);
-                Console.WriteLine("\n\n\nEND OF TRACE - \n\n\n");
-                if(e.Message.StartsWith("Attempted to"))
-                {
-                    parseMore();
-                } else
-                {
-                    //end...
-                }
-                
-            }
         }
     }
 }

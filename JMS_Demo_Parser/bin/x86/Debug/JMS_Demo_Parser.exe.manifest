@@ -54,14 +54,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JMS_Demo_Parser.exe" size="6656">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JMS_Demo_Parser.exe" size="7680">
       <assemblyIdentity name="JMS_Demo_Parser" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>nDXlyes7dMcQcG9VNQD9cbA/OpHWSJuQXRIL2X75pgY=</dsig:DigestValue>
+        <dsig:DigestValue>o8LVpi9V9dr0iGMp1UxLppReQKQuLM5WbwXdvqqCN4U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Npgsql.dll" size="443392">
+      <assemblyIdentity name="Npgsql" version="3.0.3.0" publicKeyToken="5D8B90D52F46FDA7" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2HWV9K1Z9NZS+2aKpNt9KX9/HAjFPiHtzl3A92q3sv8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
