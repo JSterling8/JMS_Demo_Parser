@@ -1,0 +1,13 @@
+C:\Users\anon\git\all_fyp\JMS_Demo_Parser\JMS_Demo_Parser\bin\x86\Debug\JMS_Demo_Parser.exe.config
+C:\Users\anon\git\all_fyp\JMS_Demo_Parser\JMS_Demo_Parser\bin\x86\Debug\JMS_Demo_Parser.exe.manifest
+C:\Users\anon\git\all_fyp\JMS_Demo_Parser\JMS_Demo_Parser\bin\x86\Debug\JMS_Demo_Parser.application
+C:\Users\anon\git\all_fyp\JMS_Demo_Parser\JMS_Demo_Parser\bin\x86\Debug\JMS_Demo_Parser.exe
+C:\Users\anon\git\all_fyp\JMS_Demo_Parser\JMS_Demo_Parser\bin\x86\Debug\JMS_Demo_Parser.pdb
+C:\Users\anon\git\all_fyp\JMS_Demo_Parser\JMS_Demo_Parser\bin\x86\Debug\DemoInfo.dll
+C:\Users\anon\git\all_fyp\JMS_Demo_Parser\JMS_Demo_Parser\bin\x86\Debug\DemoInfo.xml
+C:\Users\anon\git\all_fyp\JMS_Demo_Parser\JMS_Demo_Parser\obj\x86\Debug\JMS_Demo_Parser.TrustInfo.xml
+C:\Users\anon\git\all_fyp\JMS_Demo_Parser\JMS_Demo_Parser\obj\x86\Debug\JMS_Demo_Parser.exe.manifest
+C:\Users\anon\git\all_fyp\JMS_Demo_Parser\JMS_Demo_Parser\obj\x86\Debug\JMS_Demo_Parser.application
+C:\Users\anon\git\all_fyp\JMS_Demo_Parser\JMS_Demo_Parser\obj\x86\Debug\JMS_Demo_Parser.exe
+C:\Users\anon\git\all_fyp\JMS_Demo_Parser\JMS_Demo_Parser\obj\x86\Debug\JMS_Demo_Parser.pdb
+C:\Users\anon\git\all_fyp\JMS_Demo_Parser\JMS_Demo_Parser\obj\x86\Debug\JMS_Demo_Parser.csprojResolveAssemblyReference.cache

@@ -1,0 +1,12 @@
+C:\Users\anon\git\all_fyp\JMS_Demo_Parser\JMS_Demo_Parser\bin\Release\JMS_Demo_Parser.exe.config
+C:\Users\anon\git\all_fyp\JMS_Demo_Parser\JMS_Demo_Parser\bin\Release\JMS_Demo_Parser.exe.manifest
+C:\Users\anon\git\all_fyp\JMS_Demo_Parser\JMS_Demo_Parser\bin\Release\JMS_Demo_Parser.application
+C:\Users\anon\git\all_fyp\JMS_Demo_Parser\JMS_Demo_Parser\bin\Release\JMS_Demo_Parser.exe
+C:\Users\anon\git\all_fyp\JMS_Demo_Parser\JMS_Demo_Parser\bin\Release\JMS_Demo_Parser.pdb
+C:\Users\anon\git\all_fyp\JMS_Demo_Parser\JMS_Demo_Parser\bin\Release\DemoInfo.dll
+C:\Users\anon\git\all_fyp\JMS_Demo_Parser\JMS_Demo_Parser\bin\Release\DemoInfo.xml
+C:\Users\anon\git\all_fyp\JMS_Demo_Parser\JMS_Demo_Parser\obj\Release\JMS_Demo_Parser.TrustInfo.xml
+C:\Users\anon\git\all_fyp\JMS_Demo_Parser\JMS_Demo_Parser\obj\Release\JMS_Demo_Parser.exe.manifest
+C:\Users\anon\git\all_fyp\JMS_Demo_Parser\JMS_Demo_Parser\obj\Release\JMS_Demo_Parser.application
+C:\Users\anon\git\all_fyp\JMS_Demo_Parser\JMS_Demo_Parser\obj\Release\JMS_Demo_Parser.exe
+C:\Users\anon\git\all_fyp\JMS_Demo_Parser\JMS_Demo_Parser\obj\Release\JMS_Demo_Parser.pdb
