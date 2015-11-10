@@ -46,10 +46,14 @@ namespace JMS_Demo_Parser.src
 
             if (numFound > 0)
             {
-                return false;
+                sql = "UPDATE team SET num_matches = num_matches + 1 WHERE name = :team";
+                command = new NpgsqlCommand(sql, conn);
+                command.Parameters.Add(new NpgsqlParameter("team", team));
+
+                command.ExecuteNonQuery();
             } else
             {
-                sql = "INSERT INTO team (name) VALUES (:team)";
+                sql = "INSERT INTO team (name, num_matches) VALUES (:team, 1)";
                 command = new NpgsqlCommand(sql, conn);
                 command.Parameters.Add(new NpgsqlParameter("team", team));
 

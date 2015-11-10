@@ -63,11 +63,45 @@ namespace JMS_Demo_Parser
 
         static void Main(string[] args)
         {
-            DemoParser parser = new DemoParser(File.OpenRead(@"C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\replays\980_complexity-winterfox_de_train.dem"));
-            parser.ParseHeader();
+            int demosParsed = 0;
+            int errors = 0;
+            String[] directories = Directory.GetDirectories(@"D:\demos\extracted\");
 
-            Program program = new Program(parser);
-            parser.ParseToEnd();
+            foreach (String directory in directories)
+            {
+                if(directory.Length != 28 || !directory.StartsWith(@"D:\demos\extracted\demo190"))
+                {
+                    continue;
+                }
+
+                foreach(String file in Directory.GetFiles(directory))
+                {
+                    DemoParser parser = new DemoParser(File.OpenRead(file));
+
+                    try
+                    {
+                        parser.ParseHeader();
+
+                        Program program = new Program(parser);
+                        parser.ParseToEnd();
+
+                        demosParsed++;
+                    } catch (Exception e)
+                    {
+                        parser = null;
+                        errors++;
+                        break;
+                    }
+                }
+
+                if(demosParsed > 100)
+                {
+                    break;
+                }
+            }
+
+            Console.WriteLine("Errors: " + errors);
+            Console.WriteLine("Demos Parsed: " + demosParsed);
 
             Console.Read();
         }
