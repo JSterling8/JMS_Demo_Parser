@@ -42,26 +42,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DemoInfo.dll" size="117760">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DemoInfo.dll" size="125440">
       <assemblyIdentity name="DemoInfo" version="1.0.0.0" publicKeyToken="DC7DE83C756EC63D" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>K8h/u6J5p7G4A5ogBJbMuXTEOZNVDrZl+Jhjrvr1apM=</dsig:DigestValue>
+        <dsig:DigestValue>lEeMT1F1xMi+CsplPhMMr0TvUKi7eJFut2eMTJjUE8g=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JMS_Demo_Parser.exe" size="8192">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JMS_Demo_Parser.exe" size="9216">
       <assemblyIdentity name="JMS_Demo_Parser" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>GztxalS2P6Q3xBufQgvApDWvLYmyuyzIoYODoP6R+5o=</dsig:DigestValue>
+        <dsig:DigestValue>RDoaYwMEz5N2vze1DRZqUHW/ozhrltF1VgvAwZCW9WY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

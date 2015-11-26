@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DemoInfo;
 using System.IO;
 using JMS_Demo_Parser.src;
+using DemoInfo;
 
 namespace JMS_Demo_Parser
 {
@@ -54,9 +54,9 @@ namespace JMS_Demo_Parser
 
                     Console.WriteLine();
 
-                    DatabaseConnection connection = new DatabaseConnection();
-                    connection.addTeam(parser.TClanName);
-                    connection.addTeam(parser.CTClanName);
+                    //DatabaseConnection connection = new DatabaseConnection();
+                    //connection.addTeam(parser.TClanName);
+                    //connection.addTeam(parser.CTClanName);
                 }
             };
         }
